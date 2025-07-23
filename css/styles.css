@@ -1,0 +1,181 @@
+:root {
+    --theme-jumbo-background: #B4D0E6
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+#header-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#header-left, #header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#logo {
+    height: 30px;
+}
+
+#jumbo-container {
+    background-color: var(--theme-jumbo-background);
+    padding-top: 100px
+}
+
+#jumbo {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 110px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+#jumbo-content-container {
+    display: flex;
+    gap: 50px;
+}
+
+
+.jumbo-text {
+    font-size: 25px;
+}
+
+#jumbo-text-last {
+    margin-bottom: 80px;
+}
+
+#jumbo-text-container {
+    width: 30%;
+}
+
+#jumbo-image-container {
+    width: 70%;
+}
+
+#jumbo-trial-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: #0061FE;
+}
+
+#jumbo-image {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: -10%;
+}
+
+#jumbo-arrow {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-top: 300px;
+    margin-bottom: 200px
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#checkboxes {
+    display: flex;
+}
+
+#monthly-plan {
+    margin-right: 100px
+}
+
+input {
+    margin-right: 5px;
+}
+
+#plans-table {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.column {
+    width: calc((100% / 3) - (40px / 3));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.plan-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid
+}
+
+.plan-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.plan-name {
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+.plan-price {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.slash-info {
+    color: gray;
+    padding-bottom: 50px
+}
+
+.plan-specifics {
+    padding-bottom: 50px
+}
+
+.specific-row {
+    display: flex;
+    gap: 2px;
+    align-items: first baseline;
+    padding-bottom: 20px;
+}
